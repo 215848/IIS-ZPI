@@ -8,5 +8,11 @@ public class Main {
 
     private static int Policz2(int i, int i1) {
         return i-i1;
+        System.out.println("W pierwszym branchu; 2+3="+Policz(2,3));
+    }
+
+    private static int Policz(int i, int i1) {
+        return i+i1;
+
     }
 }
